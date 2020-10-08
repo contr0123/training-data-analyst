@@ -18,7 +18,7 @@ http.createServer((req, res) => {
     res.writeHeader(200, {'Content-Type' : 'text/html;charset:utf-8'
 	});
 	res.write('<head><meta charset="utf-8"/></head>'); 
-	res.write("The date and time are currently: " + dt.myDateTime());
+	
     res.end('你好ZZP，这是Jun在GCP的虚拟机中创建的node文件');
 }).listen(80, () => {
     console.log('started.');
