@@ -19,7 +19,7 @@ http.createServer((req, res) => {
 	});
 	res.write('<head><meta charset="utf-8"/></head>'); 
 	
-    res.end('你好ZZP，这是Jun在GCP的虚拟机中创建的node文件');
+    res.end('junjun喜欢小蓓儿⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄');
 }).listen(80, () => {
     console.log('started.');
 });
