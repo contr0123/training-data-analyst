@@ -15,7 +15,7 @@ const http = require('http');
 console.log('Server starting...');
 http.createServer((req, res) => {
     console.log('Request received...');
-    res.end('Hello GCP dev!');
+    res.end('你好ZZP，我是Jun,这个node.js运行在GCP上创建的主机!');
 }).listen(80, () => {
     console.log('started.');
 });
